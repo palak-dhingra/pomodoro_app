@@ -8,6 +8,8 @@ body{
     background-color: #FDE68A;
     flex-direction: column;
     align-items: center;
+    margin: 0;
+    height:100vh;
 }
 .pomo-container{
     border: 0.1rem solid white;
@@ -52,4 +54,27 @@ h4{
 
 h4:hover{
     text-decoration: underline white;
+}
+
+footer{
+    margin-top:auto; 
+  }
+ul{
+    list-style-type: none;
+}
+li{
+    display:inline;
+    padding: 1rem;
+    color: white;
+    font-size: larger;
+
+}
+a{
+    text-decoration: none;
+    font-size: larger;
+
+}
+i{
+    color: white;
+    font-size: larger;
 }
